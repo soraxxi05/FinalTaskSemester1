@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailConversation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleConverse"
+                android:text="Titles"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/buttonPlayConverse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/course" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:id="@+id/llDetConverse">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nama1Converse"
+                android:text="Yoori     :"
+                android:textSize="17dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textHangul"
+                    android:text="안녕하세요?"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textLatin"
+                    android:text="Anyeonghaseyo?"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textIndonesia"
+                    android:text="Apa kabar?"
+                    android:textSize="17dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:id="@+id/llDetConverse2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nama2Converse"
+                android:text="Helen     :"
+                android:textSize="17dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textHangul2"
+                    android:text="안녕, 괜찮 니?"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textLatin2"
+                    android:text="Annyeong, gwaenchanh-a. Neoneun eottae?"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textIndonesia2"
+                    android:text="Hai, aku baik. Bagaimana denganmu?"
+                    android:textSize="17dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+</ScrollView>
